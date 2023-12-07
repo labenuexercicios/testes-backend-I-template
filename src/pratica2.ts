@@ -7,5 +7,9 @@ export const pratica2 = (n: number): boolean | null => {
         return null
     }
 
-    return n % 2 == 0
+    if (n % 2 == 0) {
+      return true
+    } else {
+      return false
+    }
 }
